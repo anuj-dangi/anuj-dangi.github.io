@@ -30,7 +30,7 @@
     }
 
     section, .section-container {
-        height: fit-content;
+        height: auto; /* Changed from fit-content to auto */
     }
 
     section {
@@ -47,6 +47,10 @@
         margin-top: 0;
     }
 
+    footer nav {
+        height: auto; /* Changed from fit-content to auto */
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -57,40 +61,34 @@
 
     #profile {
         height: 83vh;
-        margin-bottom: 0;
-    }
-
-    article {
-        font-size: 1rem;
-    }
 
     footer nav {
-        height: fit-content;
+        height: fit-content;        margin-bottom: 0;
         margin-bottom: 2rem;
     }
 
-    .about-container, .contact-info-upper-container, .btn-container {
-        flex-wrap: wrap;
+    .about-container, .contact-info-upper-container, .btn-container {   font-size: 1rem;
+        flex-wrap: wrap;    }
     }
 
-    .contact-info-container {
-        margin: 0;
+    .contact-info-container {   height: fit-content;
+        margin: 0;        margin-bottom: 2rem;
     }
 
-    .contact-info-container p, .nav-link li a {
-        font-size: 1rem;
+    .contact-info-container p, .nav-link li a {about-container, .contact-info-upper-container, .btn-container {
+        font-size: 1rem;        flex-wrap: wrap;
     }
 
-    .experience-sub-title {
-        font-size: 1.25rem;
+    .experience-sub-title {contact-info-container {
+        font-size: 1.25rem;        margin: 0;
     }
 
-    .logo {
-        font-size: 1.25rem;
+    .logo {contact-info-container p, .nav-link li a {
+        font-size: 1.25rem;        font-size: 1rem;
     }
 
-    .nav-links {
-        flex-direction: column;
+    .nav-links {experience-sub-title {
+        flex-direction: column;        font-size: 1.25rem;
         gap: 0.5rem;
         text-align: center;
     }
@@ -98,16 +96,21 @@
     .section__pic-container {
         width: auto;
         height: 46vw;
-        justify-content: center;
+        justify-content: center;on: column;
     }
 
     .section__text__p2 {
         font-size: 1.25rem;
+    }ner {
+
+    .title {   height: 46vw;
+        font-size: 2rem;        justify-content: center;
     }
 
-    .title {
-        font-size: 2rem;
+    .text-container {section__text__p2 {
+        text-align: justify;        font-size: 1.25rem;
     }
+}    }
 
     .text-container {
         text-align: justify;
