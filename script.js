@@ -5,9 +5,3 @@ function toggleMenu()
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
-
-function changeTheme()
-{
-    const theme = document.querySelector(".theme");
-    document.body.classList.add("theme");
-}
